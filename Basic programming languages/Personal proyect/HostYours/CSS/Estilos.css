@@ -1,0 +1,249 @@
+*{
+    font-family:Sans-Serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#pagina{
+    background-color: rgb(244, 240, 255);
+    width: 95%;
+    height: 2000px;
+    border: 1px black solid;
+    margin: auto;
+    position: relative;
+}
+
+#indice{
+    background-color:rgb(255, 255, 255);
+    width: 100%;
+    height: 10%;
+    border-bottom: 1px black solid;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+
+.menu_indice img{
+    height: 100px;
+}
+
+.menu_indice{
+    margin: 1%;
+    width: 22%;
+    font-size: 2em;
+    position: relative;
+    padding-top: 24px;
+}
+
+.menu_indice:first-child{
+    color: black;
+    margin: 1%;
+    width: 22%;
+    font-size: 2em;
+    position: relative;
+    padding-top: 3px;
+}
+
+
+
+#inicio{
+    background-image: url('../Multimedia/fondo.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 120px 20px;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#inicio h1{
+    font-family: sans-serif;
+    font-size: 4em;
+    font-weight: bold;
+    color: black;
+}
+
+#inicio h1 span{
+    color: rgb(203, 81, 237);
+}
+
+#inicio p{
+    font-size: 1.5em;
+    color: rgb(70, 70, 70);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#inicio p{
+    color: rgb(26, 26, 26);
+    font-weight: 600;
+}
+
+
+#contenedor-planes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    background-color: rgb(244, 240, 255);
+}
+
+
+.tarjeta-plan {
+    background-color: white;
+    width: 280px;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.tarjeta-plan h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: rgb(51, 51, 51);
+}
+
+.descripcion {
+    color: rgb(119, 119, 119);
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+
+.precio {
+    font-size: 3em;
+    font-weight: bold;
+    margin: 25px 0;
+    color: black;
+}
+
+.precio span {
+    font-size: 0.4em;
+    color: rgb(102, 102, 102);
+}
+
+
+.lista-caracteristicas {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.lista-caracteristicas li {
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    color: rgb(68, 68, 68);
+}
+
+.boton-comprar {
+    display: block;
+    text-align: center;
+    background-color: rgb(138, 63, 252);
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.destacado {
+    border: 2px solid rgb(255, 140, 0);
+}
+
+.destacado .boton-comprar {
+    background-color: rgb(255, 140, 0);
+}
+
+.tablas {
+    width: 80%;
+    margin: 40px auto;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1em;
+}
+
+thead tr {
+    background-color: rgb(40, 40, 40);
+    color: white;
+    text-align: center;
+}
+
+th, td {
+    padding: 15px;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    text-align: center;
+}
+
+th {
+    font-size: 1.1em;
+    border-radius: 5px 5px 0 0;
+}
+
+.pie {
+    background-color: rgb(40, 40, 40);
+    color: white;
+    padding: 50px 0px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.somos{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.somos a{
+    color: rgb(150, 200, 255);
+}
+
+.datos {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.enlace-web {
+    color: rgb(150, 200, 255);
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.bloque-contacto p {
+    margin: 5px 0px;
+    font-size: 1em;
+    color: rgb(220, 220, 220);
+}
+
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 10px;
+}
+
+.redes-sociales img {
+    height: 35px;
+    width: auto;
+}

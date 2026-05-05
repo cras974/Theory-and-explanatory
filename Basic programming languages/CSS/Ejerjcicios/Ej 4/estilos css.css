@@ -1,0 +1,41 @@
+caption{
+    color: red;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td,th{
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+th::first-letter{
+    text-transform: capitalize;
+    font-size: 2em;
+}
+
+td:first-child{
+    background-color: aqua;
+}
+
+td[colspan="5"]{
+    background-color: yellow;
+}
+
+tr:last-of-type td:last-of-type{
+    font-size: 2em;
+}
+
+label::after{
+    content: "*";
+    color: red;
+}
+
+input[type="email"]{
+    border-width: 1px;
+    border-color: red;
+    border-style: solid;
+}

@@ -1,0 +1,110 @@
+#Main{
+    background-color: rgb(169, 169, 236);
+    width: 90%;
+    height: 1200px;
+    border: 1px black solid;
+    margin: auto;
+    position: relative;
+}
+
+#Nav{
+    background-color: rgb(0, 255, 94);
+    width: 100%;
+    height: 4%;
+    border-bottom: 1px black solid;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+#Nav div{
+    border: 1px black solid;
+    width: 23%;
+    display: inline-block;
+    margin: 0.5%;
+    height: 60%;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+}
+
+#Portada{
+    width: 100%;
+    height: 30%;
+    border-bottom: 1px black solid;
+}
+
+#Portada div{
+    position: absolute;
+    width: 7%;
+    height: 30px;
+    background-color: red;
+    margin-left: 80%;
+    margin-top: 12%;
+    text-align: center;
+    color: white;
+    border-radius: 100%;
+}
+
+#Medio{
+    width: 100%;
+    height: 15%;
+    border: 1px black solid;
+}
+
+#Medio div{
+    width: 33%;
+    height: 100%;
+    border: 1px black dashed;
+    display: inline-block;
+}
+
+#Medio_e{
+    border-top: 2px red solid;
+    border-bottom: 2px red solid;
+}
+
+#Inf{
+    width: 95.3%;
+    height: 25%;
+    border: 1px black dashed;
+    position: relative;
+    padding: 30px;
+}
+
+#Imginf{
+    width: 40%;
+    border: 1px black solid;
+    height: 80%;
+    position: absolute;
+    display: inline-block;
+}
+
+#TxtInf{
+    width: 40%;
+    border: 1px black solid;
+    height: 80%;
+    margin-left: 50%;
+    position: absolute;
+    display: inline-block;
+}
+
+#PalmerasInf{
+    width: 100%;
+    height: 5%;
+    border: 1px black solid;
+}
+
+
+#Foot{
+    width: 100%;
+    height: 11%;
+    border: 1px black solid;
+}
+
+#Foot div{
+    width: 33%;
+    border: 1px black solid;
+    height: 100%;
+    display: inline-block;
+}

@@ -1,0 +1,37 @@
+*{
+    margin: 10px;
+}
+
+h1{
+    color: crimson;
+    font-style: italic;
+}
+
+input[type="number"]{
+    background-color: greenyellow;
+}
+
+#introduccion{
+    border-color: blue;
+    border-width: 4px;
+    border-style: solid;
+    padding: 1em;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.positivo{
+    color: rgb(81, 245, 81);
+    font-weight: bolder;
+}
+
+.negativo{
+    color: red;
+    font-weight: bolder;
+}
+
+td,th{
+    border: 1px solid brown
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE videojuego [
+    <!ELEMENT videojuego (empresa,generos)>
+    <!ELEMENT empresa (#PCDATA)>
+    <!ATTLIST videojuego titulo CDATA #REQUIRED>
+    <!ELEMENT generos (genero+)>
+    <!ELEMENT genero (#PCDATA)>
+]>
+<videojuego titulo="Ay que miedo 4">
+    <empresa> BlumHouse </empresa>
+    <generos>
+        <genero>Terror</genero>
+        <genero>Online</genero>
+        <genero>Primera persona</genero>
+        <genero>Mejor con amigos</genero>
+    </generos>
+</videojuego>

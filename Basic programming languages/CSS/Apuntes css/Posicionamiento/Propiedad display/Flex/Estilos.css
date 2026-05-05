@@ -1,0 +1,34 @@
+x/*#divFlex{
+    display: flex;
+    flex-direction: row;
+    border: 1px black solid;
+    background-color: rgb(59, 255, 92);
+}*/
+
+/*#divFlex{
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px black solid;
+    background-color: rgb(59, 255, 92);
+}*/
+
+/*#divFlex{
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    background-color: rgb(59, 255, 92);
+}*/
+
+#divFlex{
+    display: flex;
+    flex-direction: column-reverse;
+    border: 1px black solid;
+    background-color: rgb(59, 255, 92);
+}
+
+
+#divFlex div{
+    background-color: burlywood;
+    margin: 10px;
+    border: 1px black solid;
+}

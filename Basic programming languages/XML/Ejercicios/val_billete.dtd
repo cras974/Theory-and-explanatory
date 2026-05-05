@@ -1,0 +1,7 @@
+<!ELEMENT billete (nombre,apellidos,aeropuerto_origen,aeropuerto_llegada,fecha,hora_vuelo)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT aeropuerto_origen (#PCDATA)>
+<!ELEMENT aeropuerto_llegada (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT hora_vuelo (#PCDATA)>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario contratación servicios</title>
+</head>
+
+<body>
+
+    <form action="servicios.php" method="post">
+        <fieldset>
+            <legend>Contratación de servicios</legend>
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" placeholder="Introduzca su nombre." id="nombre">
+                <label for="dirección">Dirección: </label>
+                <input type="text" name="dirección" placeholder="Introduzca su dirección." id="dirección">
+                <label for="edad">Edad:</label>
+                <input type="number" name="edad" id="edad" min="18">
+            </fieldset>
+            <label for="Tarifa">Tarifa:</label>
+            <select name="Tarifa" id="Tarifa">
+                <option value="TarifaJoven">Tarifa Joven</option>
+                <option value="TarifaSénior">Tarifa Sénior</option>
+                <option value="TarifaPlanaSuperior">Tarifa Plana Superior</option>
+            </select>
+            <br>
+            <br>
+            <label for="Fecha_comienzo">Fecha de comienzo del servicio: </label>
+            <input type="date" name="Fecha_comienzo" id="Fecha_comienzo">
+            <br>
+            <br>
+            <p>¿Quiere recibir notificaciones por SMS?</p>
+            <label for="Si">Si: </label>
+            <input type="radio" id="Si" name="SMS" value="Si">
+            <label for="No">No: </label>
+            <input type="radio" id="No" name="SMS" value="No">
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Restablecer">
+        </fieldset>
+    </form>
+</body>
+
+</html>

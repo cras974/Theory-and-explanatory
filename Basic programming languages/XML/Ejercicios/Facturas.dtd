@@ -1,0 +1,13 @@
+<!ELEMENT factura (id,fecha,nombre,direccion,productos,total)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT productos (producto+)>
+<!ELEMENT producto (unidades,IVA,subtotal)>
+<!ATTLIST producto nombre CDATA #REQUIRED>
+<!ATTLIST producto precio CDATA #REQUIRED>
+<!ELEMENT unidades (#PCDATA)>
+<!ELEMENT IVA (#PCDATA)>
+<!ELEMENT subtotal (#PCDATA)>
+<!ELEMENT total (#PCDATA)>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<viaje>
+    <cliente>
+        <nombre>Miguel Ángel</nombre>
+        <apellido>García Cortés</apellido>
+    </cliente>
+    <cliente>
+        <nombre>Pepe</nombre>
+        <apellido>Cortés Liñan</apellido>
+    </cliente>
+    <cliente>
+        <nombre>Lola</nombre>
+        <apellido>Flores Perez</apellido>
+    </cliente>
+    <f-incio>30/01/2026</f-incio>
+    <f-fin>05/02/2026</f-fin>
+    <origen>Madrid</origen>
+    <destinos>
+        <destino ciudad="Tokyo" hotel="Karuzka" noches="3"></destino>
+        <destino ciudad="Paris" hotel="La france" noches="2"></destino>
+        <destino ciudad="Los Angeles" hotel="StreetView" noches="5"></destino>
+    </destinos>
+    <precio>2000</precio>
+</viaje>

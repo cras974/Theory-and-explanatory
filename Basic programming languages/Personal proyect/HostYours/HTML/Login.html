@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Miguel Ángel García Cortés">
+    <link rel="stylesheet" href="../CSS/Login.css">
+    <title>HostYours</title>
+</head>
+<body>
+    <div id="pagina">
+        <div id="indice">
+            <div class="menu_indice"><a href="Pagina.html"><img src="../Multimedia/Logo.png" alt="El logo de la pagina"></a></div>
+            <div class="menu_indice"><a href="Soporte.html">Soporte</a></div>
+            <div class="menu_indice"><a href="Informacion.html">Informacion</a></div>
+            <div class="menu_indice"><a href="Login.html">Login</a></div>
+        </div>
+
+        <div class="contenedor-formulario">
+            <h2>Inicio de sesion</h2>
+            <form action="../PHP/login.php" method="post">
+                <div class="campo">
+                    <label>Usuario o Email:</label>
+                    <input type="text" name="usuario" placeholder="Tu nombre de usuario">
+                </div>
+                
+                <div class="campo">
+                    <label>Contraseña:</label>
+                    <input type="password" name="contrasena" placeholder="Tu contraseña">
+                </div>
+
+                <button type="submit" class="boton-enviar">Entrar</button>
+                
+                <p class="olvidado">
+                    <a href="Registro.html">¿No tienes cuenta?</a>
+                </p>
+            </form>
+        </div>
+
+        <footer class="pie">
+            <address class="datos">
+                <a href="https://www.hostalia.com/..." class="enlace-web">Otra web como nosotros</a>
+                
+                <div class="bloque-contacto">
+                    <p>Telefono: 989 98 99 88</p>
+                    <p>Direccion: C/Avenida de Andalucía</p>
+                    <div class="somos"><a href="Quienes somos.html">Quienes somos</a></div>
+                </div>
+
+                <div class="redes-sociales">
+                    <a href="https://www.whatsapp.com/"><img src="../Multimedia/was.png" alt="WhatsApp"></a>
+                    <a href="https://www.instagram.com/"><img src="../Multimedia/Instagram.jpg" alt="Instagram"></a>
+                    <a href="https://es.linkedin.com/"><img src="../Multimedia/linkedin.png" alt="Linkedin"></a>
+                </div>
+            </address>
+        </footer>
+    </div>
+</body>
+</html>

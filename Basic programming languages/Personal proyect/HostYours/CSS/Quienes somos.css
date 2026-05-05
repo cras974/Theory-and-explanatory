@@ -1,0 +1,158 @@
+*{
+    font-family:Sans-Serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#pagina{
+    background-color: rgb(244, 240, 255);
+    width: 95%;
+    height: 2450px;
+    border: 1px black solid;
+    margin: auto;
+    position: relative;
+}
+
+#indice{
+    background-color:rgb(255, 255, 255);
+    width: 100%;
+    height: 130px;
+    border-bottom: 1px black solid;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.menu_indice img{
+    height: 100px;
+}
+
+.menu_indice{
+    margin: 1%;
+    width: 22%;
+    font-size: 2em;
+    position: relative;
+    padding-top: 24px;
+}
+
+.menu_indice:first-child{
+    color: black;
+    margin: 1%;
+    width: 22%;
+    font-size: 2em;
+    position: relative;
+    padding-top: 3px;
+}
+
+
+h2, h3 {
+    text-align: center;
+}
+
+.Mapa, .Video {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+iframe {
+    border-radius: 10px;
+    border: 2px solid rgb(200, 200, 200);
+}
+
+.Terminos-texto {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    width: 600px;
+    margin: 20px auto;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.Terminos-texto h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.Terminos {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.caja-audio {
+    width: 30%;
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 15px;
+}
+
+.tiempo{
+    width: 60%;
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 15px;
+}
+
+
+.pie {
+    background-color: rgb(40, 40, 40);
+    color: white;
+    padding: 50px 0px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.datos {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.enlace-web {
+    color: rgb(150, 200, 255);
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.somos{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.somos a{
+    color: rgb(150, 200, 255);
+}
+
+.bloque-contacto p {
+    margin: 5px 0px;
+    font-size: 1em;
+    color: rgb(220, 220, 220);
+}
+
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 10px;
+}
+
+.redes-sociales img {
+    height: 35px;
+    width: auto;  
+}

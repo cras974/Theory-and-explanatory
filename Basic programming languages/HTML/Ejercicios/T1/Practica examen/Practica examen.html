@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Miguel Ángel García Cortés">
+    <title>Practica</title>
+</head>
+<body>
+    <!--Esto es el indice-->
+    <h2>INDICE</h2>
+    <a href="#tablas">Tablas</a> <br>
+    <a href="#listas">Listas</a> <br>
+    <a href="#curso">PDF De clases de HTML</a> <br>
+    <a href="#incrustado">Contenido incrustado</a> <br>
+    <a href="#diversidad">Diversidad</a> <br>
+    <a href="#formulario">Formulario</a> <br>
+
+    <img src="W3C.png" alt="Esto deberia ser W3C" title="W3C">
+    
+
+    <!--Aqui hay una tabla-->
+    <h2 id="tablas">TABLAS</h2>
+    <table border="1">
+        <caption>Horario de clases</caption>
+        <thead>
+            <th>Hora</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miercoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </thead>
+        <tbody>
+            <tr>
+                <th>8:15</th>
+                <td>DIG</td>
+                <td>LMSG</td>
+                <td>FH</td>
+                <td rowspan="2">IPE</td>
+                <td rowspan="2">ISO</td>
+            </tr>
+            <tr>
+                <th>9:15</th>
+                <td rowspan="2">BD</td>
+                <td rowspan="2">PAR</td>
+                <td rowspan="2">BD</td>
+            </tr>
+            <tr>
+                <th>10:15</th>
+                <td>BD</td>
+                <td>FH</td>
+            </tr>
+            <tr>
+                <th>11:15</th>
+                <th colspan="5">RECREO</th>
+            </tr>
+            <tr>
+                <th>11:45</th>
+                <td>ISO</td>
+                <td rowspan="2">ISO</td>
+                <td rowspan="2">ISO</td>
+                <td>BD</td>
+                <td>FH</td>
+            </tr>
+            <tr>
+                <th>12:45</th>
+                <td rowspan="2">PAR</td>
+                <td rowspan="2">PAR</td>
+                <td rowspan="2">LMSG</td>
+            </tr>
+            <tr>
+                <th>13:45</th>
+                <td>IPE</td>
+                <td>SOST</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+
+
+
+    <!--Aqui hay una lista-->
+    <h2 id="listas">LISTAS ORGANIZADAS / DESORGANIZADAS</h2>
+    <ol>
+        <li>Al</li>
+        <li>Paseo</li>
+        <li>Comer</li>
+        <li>Sierra</li>
+    </ol>
+    <ul>
+        <li>Al</li>
+        <li>Paseo</li>
+        <li>Comer</li>
+        <li>Sierra</li>
+    </ul>
+    <ul>
+        <li>Al</li>
+        <li>Paseo</li>
+        <ol>
+            <li>Catedral</li>
+            <li>Paseo</li>
+            <li>Mirador</li>
+        </ol>
+        <li>comer</li>
+        <li>Sierra</li>
+    </ul>
+
+    <!--Contenido incrustado-->
+    <h2>Curso de html en pdf</h2>
+
+    <a href="Curso de HTML.pdf" id="curso">CURSO DE HTML</a>
+
+    <h2 id="incrustado">Contenido incrustado</h2>
+
+    <h3>CURSO HTML INCRUSTADO</h3>
+
+    <iframe src="Curso de HTML.pdf" width="800" height="500" frameborder="1"></iframe> <br> <br>
+
+    <video src="Que es la cyberseguridad.mp4" width="50%" height="50%" controls></video> <br> <br>
+
+    <audio src="La importancia de la Ciberseguridad.mp3" controls></audio>
+
+    <!--Formulario-->
+
+    <h2 id="formulario">Formulario</h2>
+
+    <form action="ejemplo.php" method="post">
+        <fieldset>
+            <legend>Formulario de vacaciones</legend>
+            <fieldset>
+                <legend>Datos de envio</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" maxlength="25" required> <br> <br>
+                <label for="edad">Dime tu edad:</label>
+                <input type="number" min="18" size="4" max="120" name="edad" id="edad"> <br><br>
+                <label for="mail">Pon tu email:</label>
+                <input type="email" name="mail" id="mail">
+            </fieldset>
+            <fieldset>
+                <legend>Condiciones</legend>
+                <label for="destino">Seleccione su destino:</label>
+                <select name="destino" id="destino" multiple size="4">
+                    <optgroup label="Andalucia">
+                        <option value="granada" selected>Granada</option>
+                        <option value="sevilla">Sevilla</option>
+                    </optgroup>
+                    <optgroup label="Valencia">
+                        <option value="1">Opcion 1</option>
+                        <option value="2">Opcion 2</option>
+                    </optgroup>
+                </select>
+                <br>
+                <p>¿Quiere recibir SMS?</p>
+                <label for="Si">Si</label>
+                <input type="radio" name="respuesta" id="Si" checked>
+                <label for="No">No</label>
+                <input type="radio" name="respuesta" id="No">
+            </fieldset>
+            <label for="gusto">¿Le ha gustadoe el viaje?</label>
+            <input type="checkbox" name="gusto" id="gusto" checked>
+        </fieldset>
+    </form>
+
+    <!--Diversidad-->
+
+    <h2 id="diversidad">Cuotas, address, etc</h2>
+
+    <blockquote>Una vez</blockquote>
+    <address>ejemplo@gmail.com</address>
+
+    
+</body>
+</html>

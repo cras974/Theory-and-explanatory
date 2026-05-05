@@ -1,0 +1,9 @@
+article>p{
+    text-align: center;
+}
+h2~p{
+    text-align: center;
+}
+div p{
+    text-align: center;
+}

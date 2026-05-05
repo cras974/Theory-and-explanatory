@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia</title>
+</head>
+<body>
+    <!--Archivo de audio guardado en local, esto hace que se muestre en la página. Audio nos permite ponerlo, type indicar el tipo, y controls no tiene valor y permite controlarlo desde la página.-->
+
+    <p>Sonido generico:</p>
+    <audio src="Sonido.mp3" type="audio/mp3" controls>
+
+        Este audio no se muestra correctamente.
+
+    </audio>
+    <br><br>
+    <!--Si queremos que sea de una pagina lo usaremos de wikimedia u otra pagina con el enlace.-->
+
+    <p>Apolo:</p>
+    <audio src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Pouso_da_Apollo_11_na_Lua.ogg" controls>
+        Este contenido no se muestra correctamente.
+    </audio>
+    <br><br>
+
+    <!--Esta etiqueta muestra un video en la página, debe estar en local.-->
+
+    <p>Este es un video de un gato:</p>
+    <video src="Gatovideo.mp4" controls type="video" width="80%">
+        Este video no se muestra correctamente.
+    </video>
+
+    <!--Esto es una imagen que se muestra en la página, debe estar en local, es un mapa de imagen que contiene dos areas con enlaces a URL externas.
+    
+    -Href indica el enlace.
+    
+    -Target indica que se abra en otra pagina.
+    
+    -Title indica un pequeño titulo que sale al poner el raton encima.
+    
+    -Shape indica la forma del mapa.
+    
+    -Coords indica las coordenadas X,Y y el ancho/radio
+    
+    -En los rectangulos ponemos la coords de los 2 puntos contrarios.
+    
+    -En los poligonos pondremos los puntos para hacer la forma que queramos.-->
+    
+
+    <map name="mapa_seleccion">
+        
+        <area href="https://www.web.com/" target="_blank" title="Esto es una web cualquiera." shape="circle" coords="728,425,100">
+
+        <area href="https://www.ejemplo.com/lander" target="_blank" title="Esto es un ejemplo." shape="rect" coords="460,891,859,1074">
+
+        <area href="https://es.wikipedia.org/wiki/Wikipedia:Portada" target="_blank" title="Esta es la wikipedia" shape="poly" coords="473,60,400,361,605,276">
+
+    </map>
+
+    <!--Ponemos usemap y el nombre con # para que se use.-->
+
+    <img src="Gato.jpg" usemap="#mapa_seleccion">
+
+</body>
+</html>

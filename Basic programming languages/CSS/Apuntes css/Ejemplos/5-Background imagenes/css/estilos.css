@@ -1,0 +1,9 @@
+#noticia{
+    text-align: center;
+    color: black;
+    /*background: linear-gradient(to bottom, rgb(37,71,135), aquamarine);*/ /*Color gradiente de abajo a arriba, con varios colores*/
+    /*background: radial-gradient(purple,white); /*Color gradiente en radial*/
+    border-radius:20px; /*Hace que las esquinas esten curvas*/
+    padding: 20px;
+    background-image: url("../img/fondo\ 3.jpg");
+}

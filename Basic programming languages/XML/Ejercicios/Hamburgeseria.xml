@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE pedido SYSTEM "Hamburgeseria.dtd">
+<pedido>
+    <nombre>Manolo</nombre>
+    <direccion>C/Ejemplo n1</direccion>
+    <productos>
+        <producto cantidad="2">
+            <nombre_producto>Hamburgesa doble</nombre_producto>
+            <precio>10</precio>
+        </producto>
+        <producto cantidad="1">
+            <nombre_producto>Patatas fritas</nombre_producto>
+            <precio>5</precio>
+        </producto>
+        <producto cantidad="3">
+            <nombre_producto>Nachos con queso</nombre_producto>
+            <precio>6</precio>
+        </producto>
+    </productos>
+</pedido>

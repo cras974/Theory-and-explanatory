@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE cv SYSTEM "cv.dtd">
+<cv>
+    <nombre>Miguel</nombre>
+    <apellidos>García Cortés</apellidos>
+    <direccion>C/ de arriba nº3</direccion>
+    <telefono>958444444</telefono>
+    <email>miguel@gmail.com</email>
+    <email>miguel2@gmail.com</email>
+    <idiomas>
+        <idioma>Inglés</idioma>
+        <idioma>Francés</idioma>
+        <idioma>Chino</idioma>
+    </idiomas>
+</cv>

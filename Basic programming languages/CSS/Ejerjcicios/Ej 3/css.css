@@ -1,0 +1,46 @@
+p::first-letter{
+    color: red;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+p::after{
+    content: "FIN";
+    color: blue;
+    border-style: solid;
+    border-color: green;
+    border-width: 1px;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+}
+
+li:first-child{
+    background-color: gray;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+ul:first-of-type>li:last-child{
+    background-color: blue;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+ul:last-of-type{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+ul:last-of-type>li:nth-of-type(2){
+    color: orange;
+}
+
+p~p::first-line{
+    color: blue;
+}

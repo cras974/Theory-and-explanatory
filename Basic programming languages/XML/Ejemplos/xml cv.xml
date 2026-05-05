@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+    <!DOCTYPE cv[
+        <!ELEMENT cv (nombre,direccion,telefono,fax?,email+,idiomas)>    
+        <!ELEMENT nombre (#PCDATA)>                                     
+        <!ELEMENT telefono (#PCDATA)>
+        <!ELEMENT direccion (#PCDATA)>
+        <!ELEMENT fax (#PCDATA)>
+        <!ELEMENT email (#PCDATA)>
+        <!ELEMENT idiomas (idioma*)>                                    
+        <!ELEMENT idioma (#PCDATA)>
+    ]>
+
+<cv>
+    <nombre> Miguel Ángel </nombre>
+    <direccion> C/Cervantes </direccion>
+    <telefono> 698 34 21 09 </telefono>
+    <email> ejemplo@email.com </email>
+    <email> ejemplo2@email.com </email>
+    <idiomas>
+        <idioma> Inglés </idioma>
+        <idioma> Francés </idioma>
+        <idioma> Italiano </idioma>
+    </idiomas>
+</cv>

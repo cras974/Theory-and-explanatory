@@ -1,0 +1,27 @@
+<!ELEMENT cv (nombre,apellidos,f_nac,residencia,contacto,descripcion,competencias,formacion,experiencia-profesional)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT f_nac (#PCDATA)>
+<!ELEMENT residencia (ciudad,pais)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT contacto (tlf,correo,linkedin)>
+<!ELEMENT tlf (#PCDATA)>
+<!ELEMENT correo (#PCDATA)>
+<!ELEMENT linkedin (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT competencias (competencia+)>
+<!ELEMENT competencia (#PCDATA)>
+<!ATTLIST competencia nivel (Bajo|Medio|Alto) "Medio">
+<!ATTLIST competencia nombre CDATA #REQUIRED>
+<!ELEMENT formacion (titulacion+)>
+<!ELEMENT titulacion (#PCDATA)>
+<!ATTLIST titulacion nombre CDATA #REQUIRED>
+<!ATTLIST titulacion centro CDATA #REQUIRED>
+<!ATTLIST titulacion anyo CDATA #REQUIRED>
+<!ELEMENT experiencia-profesional (experiencia+)>
+<!ELEMENT experiencia (puesto,empresa,anyo-inicio,anyo-fin)>
+<!ELEMENT puesto (#PCDATA)>
+<!ELEMENT empresa (#PCDATA)>
+<!ELEMENT anyo-inicio (#PCDATA)>
+<!ELEMENT anyo-fin (#PCDATA)>

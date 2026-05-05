@@ -1,0 +1,27 @@
+.especial{
+    color: darkblue;
+}
+.resaltado{
+    color: blue;
+}
+h2,h3{
+    border:1px solid red;
+}
+
+#colorido{
+    background-color: pink;
+}
+
+ul{
+    color: blue;
+}
+
+.ulcolor{
+    color: violet;
+}
+
+#gatoborder{
+    border-width: 2;
+    border-style: solid;
+    border-color: green;
+}

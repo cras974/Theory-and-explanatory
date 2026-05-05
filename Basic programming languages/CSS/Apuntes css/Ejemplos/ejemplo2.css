@@ -1,0 +1,12 @@
+#saludoDoble{
+    font-size: 2em;
+}
+
+#saludoTriple{
+    font-size: 3em;
+}
+
+#saludoTriplePorcentual{
+    font-size: 300%;
+    color: rgb(0, 223, 45);
+}

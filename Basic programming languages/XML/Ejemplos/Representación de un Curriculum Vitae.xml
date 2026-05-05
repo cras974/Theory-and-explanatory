@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE cv SYSTEM "Dtd_cv_chulo.dtd">
+<cv>
+    <nombre> Miguel Ángel</nombre>
+    <apellidos> García Cortés </apellidos>
+    <f_nac> 06-01-2005 </f_nac>
+    <residencia>
+        <ciudad>Granada</ciudad>
+        <pais>España</pais>
+    </residencia>
+    <contacto>
+        <tlf>674235812</tlf>
+        <correo>corre@gmail.com</correo>
+        <linkedin>http://www.linkedin.com/ejemplo</linkedin>
+    </contacto>
+    <descripcion>Este es un curriculum de ejemplo</descripcion>
+    <competencias>
+        <competencia nivel="Alto" nombre="Diseño"/>
+        <competencia nivel="Medio" nombre="Trabajo en equipo"/>
+        <competencia nivel="Alto" nombre="Música"/>
+    </competencias>
+    <formacion>
+        <titulacion nombre="Diseño industrial" centro="Colegio municipal de artes industriales de Kanazawa" anyo="2024"/>
+        <titulacion nombre="Ingles" centro="Academia" anyo="2022"/>
+    </formacion>
+    <experiencia-profesional>
+        <experiencia>
+            <puesto>Diseñador de juegos</puesto>
+            <empresa>Nintendo</empresa>
+            <anyo-inicio>2020</anyo-inicio>
+            <anyo-fin></anyo-fin>
+        </experiencia>
+    </experiencia-profesional>
+</cv>

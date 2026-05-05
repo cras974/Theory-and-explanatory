@@ -1,0 +1,14 @@
+h1{
+    text-transform: uppercase;
+}
+
+body{
+    text-align:center;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto',sans-serif;
+}
+
+ul{
+    list-style: none;
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE billete SYSTEM "val_billete.dtd">
+<billete>
+    <nombre>Manuel</nombre>
+    <apellidos>Perez García</apellidos>
+    <aeropuerto_origen> Madrid </aeropuerto_origen>
+    <aeropuerto_llegada> París </aeropuerto_llegada>
+    <fecha> 2026/03/20 </fecha>
+    <hora_vuelo> 19:00 </hora_vuelo>
+</billete>

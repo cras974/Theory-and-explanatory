@@ -1,0 +1,143 @@
+[
+    {
+        "id": 1,
+        "nombre": "Laura Sánchez",
+        "email": "laura.sanchez@example.com",
+        "edad": 25,
+        "pais": "España",
+        "activo": true,
+        "compras": [
+            {
+                "producto": "Auriculares",
+                "precio": 29.99
+            },
+            {
+                "producto": "Teclado",
+                "precio": 49.99
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "nombre": "Carlos Torres",
+        "email": "carlos.torres@example.com",
+        "edad": 31,
+        "pais": "México",
+        "activo": true,
+        "compras": [
+            {
+                "producto": "Monitor",
+                "precio": 199.99
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "nombre": "Yuki Tanaka",
+        "email": "yuki.t@example.com",
+        "edad": 22,
+        "pais": "Japón",
+        "activo": false,
+        "compras": []
+    },
+    {
+        "id": 4,
+        "nombre": "Anna Müller",
+        "email": "anna.muller@example.com",
+        "edad": 28,
+        "pais": "Alemania",
+        "activo": true,
+        "compras": [
+            {
+                "producto": "Ratón",
+                "precio": 19.99
+            },
+            {
+                "producto": "Silla gaming",
+                "precio": 150.0
+            },
+            {
+                "producto": "Teclado",
+                "precio": 49.99
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "nombre": "Mohamed Ali",
+        "email": "mohamed.ali@example.com",
+        "edad": 34,
+        "pais": "Marruecos",
+        "activo": true,
+        "compras": [
+            {
+                "producto": "Portátil",
+                "precio": 899.99
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "nombre": "Sofia Rossi",
+        "email": "sofia.rossi@example.com",
+        "edad": 27,
+        "pais": "Italia",
+        "activo": false,
+        "compras": []
+    },
+    {
+        "id": 7,
+        "nombre": "John Smith",
+        "email": "john.smith@example.com",
+        "edad": 30,
+        "pais": "Estados Unidos",
+        "activo": true,
+        "compras": [
+            {
+                "producto": "Tablet",
+                "precio": 299.99
+            },
+            {
+                "producto": "Funda",
+                "precio": 19.99
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "nombre": "Isabel García",
+        "email": "isabel.garcia@example.com",
+        "edad": 26,
+        "pais": "España",
+        "activo": true,
+        "compras": [
+            {
+                "producto": "Cámara",
+                "precio": 450.0
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "nombre": "Chen Wei",
+        "email": "chen.wei@example.com",
+        "edad": 29,
+        "pais": "China",
+        "activo": true,
+        "compras": [
+            {
+                "producto": "Altavoz Bluetooth",
+                "precio": 39.99
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "nombre": "Emma Dubois",
+        "email": "emma.dubois@example.com",
+        "edad": 24,
+        "pais": "Francia",
+        "activo": false,
+        "compras": []
+    }
+]

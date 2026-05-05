@@ -1,0 +1,19 @@
+thead,tfoot{
+    color: white;
+    background-color: brown;
+    text-transform: uppercase;
+}
+
+td:last-child{
+    font-weight: bolder;
+}
+
+
+
+tbody tr:nth-child(odd){
+    color: blue;
+}
+
+tbody tr:nth-child(even){
+    color: green;
+}

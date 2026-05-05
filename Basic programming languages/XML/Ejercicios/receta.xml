@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE receta SYSTEM "receta.dtd">
+<receta raciones="6" dificultad="media">
+    <nombre>Tortilla de patatas</nombre>
+    <ingredientes>
+        <ingrediente cantidad="1" unidad="kilogramo">Patata</ingrediente>
+        <ingrediente cantidad="8" unidad="unidades">Huevo</ingrediente>
+        <ingrediente cantidad="1" unidad="unidad">Cebolla</ingrediente>
+        <ingrediente>Sal</ingrediente>
+    </ingredientes>
+    <elaboración>
+    Se pelan las patatas...
+    </elaboración>
+</receta>

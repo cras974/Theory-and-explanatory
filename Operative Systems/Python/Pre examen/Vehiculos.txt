@@ -1,0 +1,58 @@
+vehiculos = {
+    "Tesla Model 3": {
+        "marca": "Tesla",
+        "autonomia_km": 491,
+        "precio_euros": 45000,
+        "potencia_cv": 283,
+        "ventas_2023": 120000,
+        "paises_disponibles": ["EE.UU.", "España", "Alemania", "Francia", "Noruega"]
+    },
+    "Renault Zoe": {
+        "marca": "Renault",
+        "autonomia_km": 395,
+        "precio_euros": 32000,
+        "potencia_cv": 135,
+        "ventas_2023": 48000,
+        "paises_disponibles": ["Francia", "España", "Italia"]
+    },
+    "Volkswagen ID.4": {
+        "marca": "Volkswagen",
+        "autonomia_km": 520,
+        "precio_euros": 50000,
+        "potencia_cv": 204,
+        "ventas_2023": 60000,
+        "paises_disponibles": ["Alemania", "España", "EE.UU.", "Suecia"]
+    },
+    "Hyundai Ioniq 5": {
+        "marca": "Hyundai",
+        "autonomia_km": 481,
+        "precio_euros": 47000,
+        "potencia_cv": 217,
+        "ventas_2023": 75000,
+        "paises_disponibles": ["Corea del Sur", "EE.UU.", "España", "Alemania"]
+    },
+    "Nissan Leaf": {
+        "marca": "Nissan",
+        "autonomia_km": 385,
+        "precio_euros": 31000,
+        "potencia_cv": 147,
+        "ventas_2023": 43000,
+        "paises_disponibles": ["Japón", "España", "EE.UU."]
+    },
+    "BMW i4": {
+        "marca": "BMW",
+        "autonomia_km": 590,
+        "precio_euros": 62000,
+        "potencia_cv": 340,
+        "ventas_2023": 30000,
+        "paises_disponibles": ["Alemania", "EE.UU.", "España", "Francia"]
+    },
+    "Kia EV6": {
+        "marca": "Kia",
+        "autonomia_km": 528,
+        "precio_euros": 49000,
+        "potencia_cv": 229,
+        "ventas_2023": 56000,
+        "paises_disponibles": ["Corea del Sur", "EE.UU.", "España", "Italia", "Francia"]
+    }
+}

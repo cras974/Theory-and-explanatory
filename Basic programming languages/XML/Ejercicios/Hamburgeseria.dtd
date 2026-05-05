@@ -1,0 +1,8 @@
+<!ELEMENT pedido (nombre,direccion,productos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT productos (producto+)>
+<!ELEMENT producto (nombre_producto,precio)>
+<!ATTLIST producto cantidad CDATA #REQUIRED>
+<!ELEMENT nombre_producto (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>

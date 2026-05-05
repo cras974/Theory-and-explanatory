@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repaso formularios</title>
+</head>
+
+<body>
+    <table border="1">
+        <caption>Administracion de sistemas informaticos en red.</caption>
+        <thead>
+            <th>Hora</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miercoles</th>
+        </thead>
+        <tbody>
+            <tr>
+                <th>8:15</th>
+                <td rowspan="3">LMSGI</td>
+                <td colspan="2">GBD</td>
+            </tr>
+            <tr>
+                <th>9:15</th>
+                <td>ISO</td>
+                <td>FH</td>
+            </tr>
+            <tr>
+                <th>10:15</th>
+                <td>Hora libre</td>
+                <td>PAR</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total:</th>
+                <th>3</th>
+                <th>2</th>
+                <th>3</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <hr>
+
+    <form action="lectura.php" method="post">
+        <fieldset>
+            <legend>Formulario de Lectura</legend>
+
+            <fieldset>
+
+                <legend>Datos del Lector</legend>
+
+                <br>
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" size="30" maxlength="30" placeholder="Introduzca su nombre."> 
+
+                <br>
+                <br>
+
+                <label for="nacimiento">Fecha de nacimiento:</label>
+                <input type="date" name="nacimiento" id="nacimiento">
+
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+            </fieldset>
+            <fieldset>
+
+                <legend>Habitos de lectura.</legend>
+            
+                <label for="librosleidos">Libros leidos este año:</label>
+                <input type="number" name="librosleidos" id="librosleidos" min="0" max="10" size="4">
+
+                <br><br>
+                
+                <label for="librosfav">Temas preferidos:</label>
+                <select name="librosfav" id="librosfav" multiple size="2">
+                    <optgroup label="Categoria favorita">
+                        <option value="terror">Terror</option>
+                        <option value="accion">Acción</option>
+                        <option value="aventuras">Aventuras</option>
+                        <option value="comedia" selected>Comedia</option>
+                    </optgroup>
+
+                    <optgroup label="Libro favorito">
+                        <option value="quijote">Quijote</option>
+                        <option value="celestina">La Celestina</option>
+                        <option value="pato">El pato feo</option>
+                    </optgroup>
+                </select>
+
+                <br><br>
+                
+                <p>Comentarios:</p>
+                <textarea name="comentarios" id="comentarios" cols="40" rows="10"></textarea>
+
+                <br><br>
+
+                <label for="recomendaciones">Deseo recibir recomendaciones de libros de la biblioteca:</label>
+                <input type="checkbox" name="recomendaciones" id="recomendaciones" checked>
+
+                <br><br>
+
+                <p>¿Has leido este año?</p>
+                <label for="Si">Si</label>
+                <input type="radio" name="lectura" id="Si" value="Si">
+
+                <br>
+
+                <label for="No">No</label>
+                <input type="radio" name="lectura" id="No" value="No">
+
+            </fieldset>
+
+            <br><br>
+
+            <input type="submit" value="ENVIAR">
+            
+            <input type="reset" value="RESTABLECER">
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

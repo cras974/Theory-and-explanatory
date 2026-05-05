@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE pelicula SYSTEM "pelicula.dtd">
+<pelicula>
+    <titulo> Scary Movie 10 </titulo>
+    <director> Jhon Jhonson </director>
+    <sinopsis> Pelicula de terror ambientada en los 2000 </sinopsis>
+    <actores>
+        <actor> Jinni Robin </actor>
+        <actor> Janna Rowan </actor>
+        <actor> Kevin Kalsinton </actor>
+    </actores>
+</pelicula>
