@@ -37,6 +37,6 @@ Notas detalladas sobre materias y tecnologías que estoy dominando.
 2.  **Documentación Rigurosa:** La claridad es cortesía; si el conocimiento no está bien explicado, no es útil.
 3.  **Iteración Constante:** Todo lo que ves aquí es un trabajo en progreso hacia la excelencia técnica, que aun queda.
 
-> *"La mejor forma de predecir el futuro es creándolo, una línea de código a la vez."*
+> *"La mejor forma de predecir el futuro es creándolo."*
 
 ---
