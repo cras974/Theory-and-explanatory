@@ -23,7 +23,7 @@ Notas detalladas sobre materias y tecnologías que estoy dominando.
 
 | Categoría | Herramientas |
 | :--- | :--- |
-| **Lenguajes** | `Python`, `JavaScript`, `SQL`, `CSS`, `XPATH`, `XML`, `XSL`, `HTML`, `PHP` |
+| **Lenguajes** | `Python`, `JavaScript`, `SQL`, `CSS`, `XQuery`, `XML`, `XSL`, `HTML`, `PHP` |
 | **Especialidades** | `Redes`, `Bases de datos`, `Sistemas operativos`, `Lenguajes` |
 | **Productividad** | `Markdown`, `Git`, `Office` |
 | **Infraestructura** | `AWS` |
